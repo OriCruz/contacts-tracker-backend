@@ -23,7 +23,8 @@ db.on('disconnected', () => console.log('mongo disconnected'));
 app.use(express.urlencoded({ extended: false }));// extended: false - does not allow nested objects in query strings
 app.use(express.json()); //use .json(), not .urlencoded()
 app.use(express.static('public')); //tell express to use the public directory for static files. Our app will find index.html as the route of the application then attach React to that file
-app.use(cors());
+// this is how it used to be ->app.use(cors());
+app.use(cors({ origin: '*' })) // used to whitelist requests
 
 //Routes 
 app.use('/contacts', contactsController);
