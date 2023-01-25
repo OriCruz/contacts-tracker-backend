@@ -24,7 +24,6 @@ Edit contact page:
 - MongoDB
 - Mongoose
 - Cors
-- Axios
 - Dotenv
 
 ## Getting Started
@@ -39,6 +38,7 @@ Edit contact page:
 2. Open your text editor of choice.
 3. Open terminal and paste the line below.
 `git clone https://github.com/OriCruz/contacts-tracker-backend.git`
+4. To start the repo in your local machine use `nodemon` in project's directory
 
 ## Unsolved problems and Future Enhancements
 At the moment I can't see any unsolved issues on the backend side of this project, though I would like to change the file structure for it to be a bit cleaner.
