@@ -1,6 +1,6 @@
 # Contacts Tracker (backend)
 This full stack application keeps track of all your contacts' First and last names as well as their phone number and a desired image. 
-This app is the back-end of the application, which takes care of everything that happends behind the scene like, connecting to the databse (MongoDB), recieves the call/request from the browser and sends a response out with the information requested. 
+This repo is the back-end of the application, which takes care of everything that happends behind the scene like, connecting to the databse (MongoDB), recieves the call/request from the browser and sends a response out with the information requested. 
 
 ## How the app looks from the server side.
 ![backendImg](./imgs-readme/contact-tracker-backend.png)
